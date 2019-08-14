@@ -1,0 +1,19 @@
+{
+    "name": "cubet/conatct",
+    "description": "testing packages",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "manu.joseph",
+            "email": "manu.joseph@cubettech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cubet\\Contact\\": "src/"
+        }
+    }
+}
