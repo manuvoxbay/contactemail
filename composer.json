@@ -15,5 +15,12 @@
         "psr-4": {
             "Cubet\\Contact\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cubet\\Contact\\ContactServiceProvider"
+            ],
+        }
+    },
 }
